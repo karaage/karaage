@@ -1,17 +1,82 @@
 <html lang="ja" xmlns="http://www.w3.org/1999/xhtml"> 
   <head> 
     <meta charset="utf-8" /> 
-    <title>唐揚げ.rb</title> 
+    <title>唐揚げ.rb 〜唐揚げ好きのrubynistのためのコミュ〜</title> 
+    <link href="./style.css" rel="stylesheet" type="text/css">
   </head> 
   <body> 
-    <h1>Karaage Index.</h1>
-    <selection class="atnd">
-       <h2>唐揚げカレンATND</h2>
-       <ul>
-         <% @events.each do |event| %>
-         <li><a href="<%= event.event_url %>"><%= "#{event.title}(#{event.started_at})"%></a></li> 
-         <% end %>
-       </ul>
-    </selection>
+    <!-- コンテナ開始 -->
+    <div id="container">
+      <div id="containerInner">
+
+        <!-- ヘッダ開始 -->
+        <div id="header">
+          <h1>唐揚げ.rb 〜唐揚げ好きのrubynistのためのコミュ〜</h1>
+        </div>
+        <!-- ヘッダ終了 -->
+
+        <!-- ナビゲーション開始 -->
+        <div id="nav">
+          <ul>
+            更新履歴
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+          </uL>
+        </div>
+        <!-- ナビゲーション終了 -->
+
+        <!-- メインカラム開始 -->
+        <div id="content">
+          <p>唐揚げ.rbの活動についてとか</p>
+          <h2>唐揚げ.rb</h2>
+            <p>test</p>
+          <h3>唐揚げ.rb</h3>
+            <p>test</p>
+          <h4>唐揚げ.rb</h4>
+            <p>test</p>
+          <h5>唐揚げ.rb</h5>
+            <p>test</p>
+        </div>
+        <!-- メインカラム終了 -->
+
+        <!-- サブナビゲーション開始 -->
+        <div id="aside">
+          <div id="asidetop">
+	    <selection class="atnd">
+	       <h2>唐揚げカレンATND</h2>
+	       <ul>
+	         <% @events.each do |event| %>
+	         <li><a href="<%= event.event_url %>"><%= "#{event.title}(#{event.started_at})"%></a></li> 
+	         <% end %>
+	       </ul>
+	    </selection>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+          </div>
+          <div id="asidebottom">
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+            <p>つぶやきとか,atndとか</p>
+          </div>
+        </div>
+        <!-- サブナビゲーション終了 -->
+
+        <!-- フッタ開始 -->
+        <div id="footer">
+          <p>copyright(c)てきな</p>
+        </div>
+        <!-- フッタ終了 -->
+
+
+      </div>
+    </div>
+    <!-- コンテナ終了 -->
   </body>
 </html>
