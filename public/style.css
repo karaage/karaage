@@ -1,0 +1,84 @@
+body {background-color: #FFF0F5 ;
+     margin: 0; 
+     padding: 0;
+     color: #000000;
+     font-size: 100%
+     font-family : Arial,'ＭＳ Ｐゴシック',sans-serif ;
+} 
+
+/* --- 全体のリンクテキスト --- */
+a:link { color: #0000ff; }
+a:visited { color: #800080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff0000; }
+
+
+
+/* Basic Style */
+h1 {font-size: 150% ; 
+    color:#D2691E}
+h2 {font-size: 130% ; 
+    color:#D2691E}
+h3 {font-size: 120% ; 
+    color:#D2691E}
+h4 {font-size: 110% ; 
+    color:#D2691E}
+h5 {font-size: 100% ; 
+    color:#D2691E}
+p,dd,dt,dl,tr,td,ul,li {font-size: 100% ; 
+    color:#D2691E}
+
+
+#container {
+  width: 1000px; /* ページの幅 */
+  margin: 0 auto; /* センタリング */
+  background-color: #ffffff; /* メインカラムの背景色 */
+  border-left: 1px #c0c0c0 solid; /* 左の境界線 */
+  border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+}  
+
+#containerInner {
+  width: 100%;
+}
+
+/* --- ヘッダ --- */
+#header {
+  background-color: #ffe080; /* ヘッダの背景色 */
+  border-bottom: double 1px #C0C0C0;
+  text-align: center;
+}
+
+/* --- ナビゲーション --- */
+#nav {
+  float: left;
+  width: 240px; /* 左サイドバーの幅 */
+}
+
+/* --- メインカラム --- */
+#content {
+  float: left;
+  width: 500px; /* メインカラムの幅 */
+}
+
+/* --- サブナビゲーション --- */
+#aside {
+  float: left;
+  width: 240px; /* 右サイドバーの幅 */
+}
+
+#asidetop {
+  float: left;
+  height: auto; /* 右サイドバーの幅 */
+}
+#asidebottom {
+  float: left;
+  height: auto; /* 右サイドバーの幅 */
+}
+
+/* --- フッタ --- */
+#footer {
+  clear: left; /* フロートのクリア */
+  width: 100%;
+  background-color: #ffe080; /* フッタの背景色 */
+  text-align: center;
+}
