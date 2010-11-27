@@ -9,7 +9,7 @@
 	 	<h2>唐揚げカレンATND</h2>
 	 	<ul>
 			<% @events.each do |event| %>
-			<li><%= "#{event.title(#{event.started_at})}"%></li> 
+			<li><a href="<%= event.event_url %>"><%= "#{event.title}(#{event.started_at})"%></a></li> 
 			<% end %>
 	 	</ul>
 	 </selection>
