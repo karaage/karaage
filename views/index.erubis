@@ -5,13 +5,13 @@
   </head> 
   <body> 
     <h1>Karaage Index.</h1>
-	 <selection class="atnd">
-	 	<h2>唐揚げカレンATND</h2>
-	 	<ul>
-			<% @events.each do |event| %>
-			<li><a href="<%= event.event_url %>"><%= "#{event.title}(#{event.started_at})"%></a></li> 
-			<% end %>
-	 	</ul>
-	 </selection>
+    <selection class="atnd">
+       <h2>唐揚げカレンATND</h2>
+       <ul>
+         <% @events.each do |event| %>
+         <li><a href="<%= event.event_url %>"><%= "#{event.title}(#{event.started_at})"%></a></li> 
+         <% end %>
+       </ul>
+    </selection>
   </body>
 </html>
